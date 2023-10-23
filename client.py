@@ -1,6 +1,6 @@
 import socket
 
-# створюємо сокет
+# створюємо сокет_dev
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # задаємо IP-адресу та порт сервера
 server_address = ('127.0.0.1', 12345)
